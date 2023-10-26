@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta name="description" content="goit-markup-hw-01" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WebStudio</title>
     <link
       rel="stylesheet"
@@ -67,6 +67,75 @@
             </li>
           </ul>
         </address>
+        <button type="button" class="unlock-menu" id="burger">
+          <svg class="main-social-icon" width="24" height="24">
+            <use href="./images/icons.svg#icon-heroicons"></use>
+          </svg>
+        </button>
+      </div>
+      <div class="menu-mob">
+        <button type="button" class="menu-closure-btn">
+          <svg class="menu-icon-btn" width="8" height="8">
+            <use href="./images/icons.svg#icon-close"></use>
+          </svg>
+        </button>
+        <div class="mob-menu-wrap">
+          <ul class="mob-menu-list">
+            <li class="mob-menu-item">
+              <a class="mob-menu-link" href="./index.html">Studio</a>
+            </li>
+            <li class="mob-menu-item">
+              <a class="mob-menu-link" href="">Portfolio</a>
+            </li>
+            <li class="mob-menu-item">
+              <a class="mob-menu-link" href="">Contacts</a>
+            </li>
+          </ul>
+          <address class="contact-mob">
+            <ul class="mob-contact-menu">
+              <li class="mob-contact-item">
+                <a class="mob-contact-link" href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li class="mob-contact-item">
+                <a class="mob-contact-link" href="tel:+110001111111"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+            </ul>
+          </address>
+          <ul class="mob-soc-list">
+            <li class="mob-soc-iten">
+              <a class="mob-soc-link" href="">
+                <svg class="mob-soc" height="24" width="24">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="mob-soc-iten">
+              <a class="mob-soc-link" href="">
+                <svg class="mob-soc" height="24" width="24">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="mob-soc-iten">
+              <a class="mob-soc-link" href="">
+                <svg class="mob-soc" height="24" width="24">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="mob-soc-iten">
+              <a class="mob-soc-link" href="">
+                <svg class="mob-soc" height="24" width="24">
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </header>
     <main>
@@ -143,6 +212,8 @@
           <ul class="third-list">
             <li class="third-content">
               <img
+                class="third-content-img"
+                srcset="./images/Mark2.jpg"
                 src="./images/Mark.jpg"
                 alt="MarkGuerrero"
                 width="264"
@@ -185,6 +256,8 @@
             </li>
             <li class="third-content">
               <img
+                class="third-content-img"
+                srcset="./images/Tom2.jpg"
                 src="./images/Tom.jpg"
                 alt="TomFord"
                 width="264"
@@ -227,6 +300,8 @@
             </li>
             <li class="third-content">
               <img
+                class="third-content-img"
+                srcset="./images/Camila2.jpg"
                 src="./images/Camila.jpg"
                 alt="CamilaGarcia"
                 width="264"
@@ -269,6 +344,8 @@
             </li>
             <li class="third-content">
               <img
+                class="third-content-img"
+                srcset="./images/Daniel2.jpg"
                 src="./images/Daniel.jpg"
                 alt="DanielWilson"
                 width="264"
