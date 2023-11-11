@@ -1123,7 +1123,6 @@ address {
 @media screen and (min-width: 1158px) {
   .container {
     max-width: 1158px;
-    margin: 0 auto;
     padding: 0 15px 0 15px;
   }
   .unlock-menu {
@@ -1146,6 +1145,7 @@ address {
   /** =========first========== */
 
   .first {
+    margin: 0 auto;
     max-width: 1440px;
     height: 600px;
     padding: 188px;
